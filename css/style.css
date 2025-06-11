@@ -56,7 +56,41 @@ img {
   flex-wrap: nowrap;
 }
 
-.heart {
+.front-image {
+  display: block;
+}
+
+.back-image {
+  display: none;
+}
+
+.card:hover .front-image {
+  display: none;
+}
+
+.card:hover .back-image {
+  display: block;
+}
+
+.black-heart {
+  display: block;
+}
+
+.red-heart {
+  display: none;
+}
+
+.card:hover .black-heart {
+  display: none;
+}
+
+.card:hover .red-heart {
+  display: block;
+}
+
+.heart,
+.black-heart,
+.red-heart {
   padding: 10px;
   background-color: white;
   position: absolute;
@@ -135,14 +169,6 @@ img {
 
 .col-33 {
   width: calc(100% / 3 - 30px)
-}
-
-.bg-pink {
-  background-color: pink;
-}
-
-.border-black {
-  border: 1px solid black;
 }
 
 .h-500 {
