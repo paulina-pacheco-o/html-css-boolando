@@ -28,7 +28,8 @@ img {
   background-color: #FF0000;
 }
 
-.bg-green {
+.bg-green,
+.bg-green-s {
   background-color: green;
 }
 
@@ -83,6 +84,16 @@ img {
   display: flex;
   margin: 0 50px;
   padding: 5px;
+  color: white;
+  position: absolute;
+  bottom: 60px;
+}
+
+.bg-green-s {
+  display: flex;
+  margin: 0;
+  padding: 5px;
+  left: 0;
   color: white;
   position: absolute;
   bottom: 60px;
