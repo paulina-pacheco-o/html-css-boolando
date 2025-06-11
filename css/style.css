@@ -23,7 +23,8 @@ img {
   height: 30px;
 }
 
-.bg-red {
+.bg-red,
+.bg-red-s {
   background-color: #FF0000;
 }
 
@@ -67,7 +68,15 @@ img {
   color: white;
   position: absolute;
   left: 0;
-  bottom: 20px;
+  bottom: 60px;
+}
+
+.bg-red-s {
+  padding: 5px;
+  color: white;
+  position: absolute;
+  left: 0;
+  bottom: 100px;
 }
 
 .label {
@@ -76,7 +85,7 @@ img {
   padding: 5px;
   color: white;
   position: absolute;
-  bottom: 20px;
+  bottom: 60px;
 }
 
 .icons {
