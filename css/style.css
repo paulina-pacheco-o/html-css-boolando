@@ -6,17 +6,57 @@
 
 ul {
   list-style: none;
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
 }
 
 img {
-  height: 20px;
+  height: 30px;
 }
 
 .icons {
   margin-top: 20px;
 }
 
-.container {}
+.container-header {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.col-33 {
+  width: calc(100% / 3 - 30px)
+}
+
+.bg-pink {
+  background-color: pink;
+}
+
+.border-black {
+  border: 1px solid black;
+}
+
+.h-400 {
+  height: 400px;
+}
+
+main {
+  margin-top: 120px;
+}
 
 header {
   background-color: #FF6900;
@@ -26,5 +66,6 @@ header {
   position: fixed;
   left: 0;
   right: 0;
+  top: 0;
   z-index: 1;
 }
